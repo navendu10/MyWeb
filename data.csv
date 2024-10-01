@@ -1,0 +1,7 @@
+title;description;url;image
+Credit Card Fraud Detection for an E-Commerce Bookstore;A model that minimizes false positives and negatives protecting our users from fraud while ensuring a smooth transaction process for legitimate buyers.;https://github.com/navendu10/MLmodels_NB/blob/d55c3cee88977d7730437a8593f3cc11378e7800/Credit_Card_Fraud.ipynb;1.jpg
+Spam Detection;Model to detect Spam/Ham email using Recursive Neural Network.;https://github.com/navendu10/MLmodels_NB/blob/0843919d9a44e74203d55fd800db114cbf2c6b7c/Spam_Detection_RNN.ipynb;2.jpg
+Movie Recommender;A movie recommender system to suggest movies based on users past ratings and behavior.;https://github.com/navendu10/MLmodels_NB/blob/31a75491106a5a381aa1075e3862a229cf53e959/Movie%20Recomm_Nav.ipynb;3.jpg
+Image Classification;Train a Convolutional Neural Network to classify 32x32 pixel images into one of 10 classes using the CIFAR-10 dataset.;https://github.com/navendu10/MLmodels_NB/blob/0843919d9a44e74203d55fd800db114cbf2c6b7c/CNN_CIFAR10.ipynb;4.png
+Avocado Price Prediction;Predict future avocado prices using historical retail scan using Facebook Prophet.;https://github.com/navendu10/MLmodels_NB/blob/65ba37d304a12727e4cbc770f69c5f053e6982ef/Avocado%20Price%20Pred_Nav.ipynb;5.jpg
+Twitter Sentiment Analysis;Optimizing Customer Insights with AI-Powered Tweet Sentiment Analysis;https://github.com/navendu10/MLmodels_NB/blob/cea06f64e0fb142573d5f7d6a1162f9c2acdb631/Twitter_Sentiment%20Analysis_nav.ipynb;6.jpeg
