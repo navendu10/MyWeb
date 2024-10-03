@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-# Set page layout
+# Set page layout to wide, which already helps with responsiveness
 st.set_page_config(layout="wide")
 
 
@@ -19,7 +19,7 @@ def home_page():
     # Adjust vertical alignment with padding
     with col1:
         add_vertical_space(2)  # Add space before the image to match text
-        st.image('images/photo.jpg', width=350)  # Adjust image width
+        st.image('images/photo.jpg', use_column_width=True)  # Dynamic image width for responsiveness
 
     with col2:
         st.title("Navendu Vyas")
@@ -32,9 +32,9 @@ def home_page():
         """
         st.info(content)
 
-    # Project display intro text
+    # Project display intro text with responsive font size
     st.markdown("""
-        <div style='text-align: center; font-size:20px; color: #1E90FF;'>
+        <div style='text-align: center; font-size:2vw; color: #1E90FF;'>
             Below you can find some of the apps/projects I have worked on using Python, ML, and Deep Learning. 
         </div>
         """, unsafe_allow_html=True)
@@ -58,7 +58,7 @@ def home_page():
         for index, row in df[3:].iterrows():
             st.header(row["title"])
             st.write(row["description"])
-            st.image("images/" + row["image"], use_column_width=True)
+            st.image("images/" + row["image"], use_column_width=True)  # Scale images dynamically
             st.write(f"[Source Code]({row['url']})")
 
 
