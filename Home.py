@@ -19,7 +19,7 @@ def home_page():
     # Adjust vertical alignment with padding
     with col1:
         add_vertical_space(2)  # Add space before the image to match text
-        st.image('images/photo.jpg', use_column_width=True)  # Updated for responsiveness
+        st.image('images/photo.jpg', use_container_width=True)  # Updated for responsiveness
 
     with col2:
         st.title("Navendu Vyas")
@@ -50,7 +50,7 @@ def home_page():
         for index, row in df[:3].iterrows():
             st.header(row["title"])
             st.write(row["description"])
-            st.image("images/" + row["image"], use_column_width=True)  # Updated for responsiveness
+            st.image("images/" + row["image"], use_container_width=True)  # Updated for responsiveness
             st.write(f"[Source Code]({row['url']})")
 
     # Display remaining projects in col4
@@ -58,7 +58,7 @@ def home_page():
         for index, row in df[3:].iterrows():
             st.header(row["title"])
             st.write(row["description"])
-            st.image("images/" + row["image"], use_column_width=True)  # Updated for responsiveness
+            st.image("images/" + row["image"], use_container_width=True)  # Updated for responsiveness
             st.write(f"[Source Code]({row['url']})")
 
 
